@@ -1,0 +1,35 @@
+Class Player
+    properties 
+    name, lives, age
+
+    methods:
+    increase_live()
+    decrase_live()
+
+
+Class Game
+    start()
+    end()
+    generate question()
+    switch_turm
+    combination... 
+    after answer: based on answer true or false, deduct or remain the same
+                  if lives === 0 end game (STOP), 
+                  else "NEW TURN!" (invoke question again) <-- game LOOP + switch user
+
+
+    Generate questions, answers
+    type of questions - mathematical, scientific
+
+
+
+Class Person
+    properties:
+    name, age, sex, height
+
+    methods:
+    calculate_age()
+    calculate_height()
+    calculate_Salary()
+
+
